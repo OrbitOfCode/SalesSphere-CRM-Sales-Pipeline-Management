@@ -1,3 +1,4 @@
+
 # BrightTech Solutions — Salesforce CRM Implementation
 
 ## Project Overview
@@ -23,6 +24,27 @@ Develop a structured CRM solution for BrightTech Solutions that supports:
 - Markdown
 
 ## Project Structure
+
+```text
+BrightTech-Solutions-Salesforce-CRM/
+│
+├── 01-business-requirements/
+│   └── README.md
+├── 02-data-discovery/
+│   └── README.md
+├── 03-data-mapping/
+│   └── README.md
+├── 04-salesforce-configuration/
+│   └── README.md
+├── 05-reports/
+│   └── README.md
+├── 06-dashboard/
+│   └── README.md
+├── screenshots/
+└── README.md
+```
+
+## Project Modules
 
 ### 01 — Business Requirements
 
@@ -53,10 +75,11 @@ Reporting objectives include:
 
 ### 06 — Dashboard
 
-Planned a Sales Performance Dashboard to present key sales pipeline information. Dashboard details will be added after implementation and verification.
+Reviewed the Salesforce dashboard interface and documented sales pipeline information available through the CRM.
 
-![Sales Performance Dashboard](screenshots/<img width="1755" height="727" alt="Screenshot 2026-10-12 153447" src="https://github.com/user-attachments/assets/0706842e-8b79-41a3-a99e-45fa90aab049" />)
+The dashboard screenshot below shows the Salesforce home page with lead and opportunity charts and a contacts list.
 
+![Salesforce Dashboard Overview](https://github.com/user-attachments/assets/0706842e-8b79-41a3-a99e-45fa90aab049)
 
 ## Salesforce CRM Screenshots
 
@@ -64,41 +87,37 @@ Planned a Sales Performance Dashboard to present key sales pipeline information.
 
 Displays sample lead records, company information, lead status, and lead ownership.
 
-![Leads Management](screenshots/<img width="1757" height="716" alt="Screenshot 2026-10-12 141746" src="https://github.com/user-attachments/assets/f0f08699-64f4-4ff2-8011-8feb001343f4"/>)
+![Leads Management](https://github.com/user-attachments/assets/f0f08699-64f4-4ff2-8011-8feb001343f4)
 
 ### 2. Lead Status Report
 
 Shows a Salesforce report with a chart summarising lead status and a table of lead records.
 
-![Lead Status Report](screenshots/<img width="1778" height="478" alt="Screenshot 2026-10-12 141906" src="https://github.com/user-attachments/assets/422c5c45-3143-490c-9b61-d4fe603ee70c" />
-)
+![Lead Status Report](https://github.com/user-attachments/assets/422c5c45-3143-490c-9b61-d4fe603ee70c)
 
 ### 3. Account Management
 
 Displays the BrightTech Solutions account record in Salesforce.
 
-![Account Management](screenshots/<img width="1787" height="356" alt="Screenshot 2026-10-12 142025" src="https://github.com/user-attachments/assets/dc89688b-2157-42a3-a641-ecba56528331" />
-)
+![Account Management](https://github.com/user-attachments/assets/dc89688b-2157-42a3-a641-ecba56528331)
 
 ### 4. Contact Management
 
 Shows the Rahul Sharma contact record and its association with BrightTech Solutions.
 
-![Contact Management](screenshots/<img width="1918" height="1073" alt="Screenshot 2026-10-12 143139" src="https://github.com/user-attachments/assets/2f24ed24-2138-46cc-8e76-b2802c86c619" />
-)
+![Contact Management](https://github.com/user-attachments/assets/2f24ed24-2138-46cc-8e76-b2802c86c619)
 
 ### 5. Opportunity Management
 
 Displays the BrightTech CRM Software Deal opportunity and its sales information.
 
-![Opportunity Management](screenshots/<img width="598" height="926" alt="Screenshot 2026-10-12 143255" src="https://github.com/user-attachments/assets/1a12218f-4fdc-4082-93ac-6e4c799de40d" />
-)
+![Opportunity Management](https://github.com/user-attachments/assets/1a12218f-4fdc-4082-93ac-6e4c799de40d)
 
 ### 6. Follow-Up Task Management
 
 Demonstrates a Follow Up Call task assigned to a Salesforce user and related to the customer and opportunity.
 
-![Follow-Up Task](screenshots/<img width="1783" height="922" alt="Screenshot 2026-10-12 143737" src="https://github.com/user-attachments/assets/e6a10108-08ca-4276-b0e1-d68ec09535d9" />)
+![Follow-Up Task Management](https://github.com/user-attachments/assets/e6a10108-08ca-4276-b0e1-d68ec09535d9)
 
 ## Sample Business Scenario
 
@@ -135,10 +154,10 @@ The project demonstrates how Salesforce can centralise customer records, connect
 
 ## Future Improvements
 
-- Implement and document a Sales Performance Dashboard.
+- Create and verify a dedicated Sales Performance Dashboard.
 - Add more sample opportunities for richer analysis.
 - Develop additional sales reports and visualisations.
-- Document testing and any automation features that are implemented.
+- Document testing and automation features when implemented.
 
 ## Project Type
 
