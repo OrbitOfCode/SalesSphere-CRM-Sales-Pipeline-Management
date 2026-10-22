@@ -1,48 +1,60 @@
-# Business Requirements
+# Data Discovery
 
-## Project Objective
+## Objective
 
-Build a Salesforce CRM solution to manage customer and sales data and provide visibility into the opportunity pipeline and revenue performance.
+Review the source sales data before importing it into Salesforce and identify the key entities, fields, relationships, and data-quality considerations.
 
-## Business Requirements
+## Source Data Areas
 
-### 1. Customer Management
-- Maintain Accounts and Contacts in a centralized CRM.
-- Store relevant customer information in structured Salesforce records.
+The project data included information related to:
 
-### 2. Opportunity Management
-- Track sales opportunities through different stages.
-- Capture opportunity amount, close date, probability, owner, and related account information.
-- Track Won and Lost opportunities.
-
-### 3. Product Management
-- Maintain Products and Price Books.
-- Associate products with opportunities through Opportunity Products.
-- Track product quantity, sales price, and total price.
-
-### 4. Sales Performance
-The CRM should provide visibility into:
-- Opportunities by Stage
-- Won vs Lost Opportunities
-- Opportunities by Sales Agent
-- Revenue by Product
-
-### 5. Reporting & Dashboard
-Create Salesforce reports and a dashboard to monitor sales pipeline, revenue, opportunity outcomes, product performance, and sales-agent performance.
-
-## Project Scope
-
-**Included:**
-- Salesforce CRM configuration
-- Data mapping and migration
-- Account and Contact management
-- Opportunity management
-- Product and Price Book configuration
+- Accounts
+- Contacts
+- Opportunities
+- Products
 - Opportunity Products
-- Reports
-- Dashboard
-- Data validation
+- Sales information
 
-## Project Type
+## Key Data Elements
 
-Self-Directed / Portfolio Project
+### Account
+- Account Name
+- Account information
+
+### Contact
+- Contact information
+- Account relationship
+
+### Opportunity
+- Opportunity Name
+- Opportunity Owner
+- Account
+- Stage
+- Amount
+- Probability
+- Close Date
+
+### Product
+- Product Name
+- Product information
+
+### Opportunity Product
+- Opportunity
+- Product
+- Quantity
+- Sales Price
+- Total Price
+
+## Data Quality Review
+
+The source data was reviewed to identify:
+
+- Missing values
+- Duplicate or inconsistent records
+- Field-format differences
+- Relationship requirements
+- Product and opportunity data consistency
+
+## Outcome
+
+The data-discovery process provided the basis for mapping the source data to Salesforce objects and fields before CRM configuration and migration.
