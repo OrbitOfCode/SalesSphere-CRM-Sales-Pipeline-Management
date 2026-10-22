@@ -23,26 +23,6 @@ Develop a structured CRM solution for BrightTech Solutions that supports:
 - GitHub
 - Markdown
 
-## Project Structure
-
-```text
-BrightTech-Solutions-Salesforce-CRM/
-│
-├── 01-business-requirements/
-│   └── README.md
-├── 02-data-discovery/
-│   └── README.md
-├── 03-data-mapping/
-│   └── README.md
-├── 04-salesforce-configuration/
-│   └── README.md
-├── 05-reports/
-│   └── README.md
-├── 06-dashboard/
-│   └── README.md
-├── screenshots/
-└── README.md
-```
 
 ## Project Modules
 
