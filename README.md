@@ -1,4 +1,3 @@
-
 # BrightTech Solutions — Salesforce CRM Implementation
 
 ## Project Overview
@@ -22,7 +21,6 @@ Develop a structured CRM solution for BrightTech Solutions that supports:
 - Salesforce Reports
 - GitHub
 - Markdown
-
 
 ## Project Modules
 
@@ -57,47 +55,7 @@ Reporting objectives include:
 
 Reviewed the Salesforce dashboard interface and documented sales pipeline information available through the CRM.
 
-The dashboard screenshot below shows the Salesforce home page with lead and opportunity charts and a contacts list.
-
-![Salesforce Dashboard Overview](https://github.com/user-attachments/assets/0706842e-8b79-41a3-a99e-45fa90aab049)
-
-## Salesforce CRM Screenshots
-
-### 1. Leads Management
-
-Displays sample lead records, company information, lead status, and lead ownership.
-
-![Leads Management](https://github.com/user-attachments/assets/f0f08699-64f4-4ff2-8011-8feb001343f4)
-
-### 2. Lead Status Report
-
-Shows a Salesforce report with a chart summarising lead status and a table of lead records.
-
-![Lead Status Report](https://github.com/user-attachments/assets/422c5c45-3143-490c-9b61-d4fe603ee70c)
-
-### 3. Account Management
-
-Displays the BrightTech Solutions account record in Salesforce.
-
-![Account Management](https://github.com/user-attachments/assets/dc89688b-2157-42a3-a641-ecba56528331)
-
-### 4. Contact Management
-
-Shows the Rahul Sharma contact record and its association with BrightTech Solutions.
-
-![Contact Management](https://github.com/user-attachments/assets/2f24ed24-2138-46cc-8e76-b2802c86c619)
-
-### 5. Opportunity Management
-
-Displays the BrightTech CRM Software Deal opportunity and its sales information.
-
-![Opportunity Management](https://github.com/user-attachments/assets/1a12218f-4fdc-4082-93ac-6e4c799de40d)
-
-### 6. Follow-Up Task Management
-
-Demonstrates a Follow Up Call task assigned to a Salesforce user and related to the customer and opportunity.
-
-![Follow-Up Task Management](https://github.com/user-attachments/assets/e6a10108-08ca-4276-b0e1-d68ec09535d9)
+The dashboard provides an overview of lead information, opportunity charts, and customer records.
 
 ## Sample Business Scenario
 
